@@ -56,12 +56,17 @@
         <h2 class="projects__title">ПРОЕКТЫ</h2>
         <ul>
           <li class="project">
-            <img src="recources/interior_pravoberezhny.jpg" alt="Правобереж" />
+            <img
+              class="project__image"
+              src="recources/interior_pravoberezhny.jpg"
+              alt="Правобереж"
+            />
             <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
             <a class="project__link" href="/">Подробнее →</a>
           </li>
           <li class="project">
             <img
+              class="project__image"
               src="recources/interior_norwegian_park.jpg"
               alt="Норвежский парк"
             />
@@ -70,6 +75,7 @@
           </li>
           <li class="project">
             <img
+              class="project__image"
               src="recources/interior_sosnovsky-lakes.jpg"
               alt="Сосновский озера"
             />
@@ -80,8 +86,8 @@
         <a class="all-projects__btn" href="/">Смотреть все проекты</a>
       </section>
       <section id="services" class="serivces__cection">
-        <div class="information-services">
-          <h1 class="services__title">УСЛУГИ</h1>
+        <div class="container">
+          <h2 class="services__title">УСЛУГИ</h2>
           <ul>
             <li class="service">
               <img
@@ -122,35 +128,45 @@
         </div>
       </section>
       <section id="contacts" class="contacts">
-        <h2 class="contacts__title">КОНТАКТЫ</h2>
-        <div class="phone__container">
-          <a class="phone-number" href="tel:+7 935 895-45-35"
-            >+7 935 895-45-35</a
-          >
+        <div class="container">
+          <ul>
+            <li>
+              <h2 class="contacts__title">КОНТАКТЫ</h2>
+              <div class="phone__container">
+                <a class="phone-number" href="tel:+7 935 895-45-35"
+                  >+7 935 895-45-35</a
+                >
+              </div>
+              <a class="email" href="mailto:hello@mail.com">hello@mail.com</a>
+            </li>
+          </ul>
         </div>
-        <a class="email" href="mailto:hello@mail.com">hello@mail.com</a>
       </section>
     </main>
-    <footer>
-      <section class="footer">
-        <div class="footer__container">
-          <div class="footer__nav">
-            <a
-              class="footer__nav-link footer__nav-link-acctive"
-              href="#about-us"
-              >О НАС</a
+    <footer class="footer">
+      <section class="footer__container">
+        <div class="footer__nav">
+          <nav>
+            <ul>
+              <li>
+                <a
+                  class="footer__nav-link footer__nav-link-acctive"
+                  href="#about-us"
+                  >О НАС</a
+                >
+                <a class="footer__nav-link" href="#projects">ПРОЕКТЫ</a>
+                <a class="footer__nav-link" href="#services">УСЛУГИ</a>
+                <a class="footer__nav-link" href="#contacts">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="email__co">
+          <p>
+            <a class="footer__studio__link" href="/"
+              >cтудия дизайна интерьера Метрика — 2023</a
             >
-            <a class="footer__nav-link" href="#projects">ПРОЕКТЫ</a>
-            <a class="footer__nav-link" href="#services">УСЛУГИ</a>
-            <a class="footer__nav-link" href="#contacts">КОНТАКТЫ</a>
-          </div>
-          <div class="email__co">
-            <p>
-              <a class="footer__studio__link" href="/"
-                >cтудия дизайна интерьера Метрика — 2023</a
-              >
-            </p>
-          </div>
+          </p>
         </div>
       </section>
     </footer>
