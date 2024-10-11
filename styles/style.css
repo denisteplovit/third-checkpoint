@@ -44,7 +44,6 @@ body {
 
 .container,
 .projects,
-.information-services,
 .contacts,
 .forest-landscape__container {
   margin: 0 auto;
@@ -55,8 +54,8 @@ body {
 .title {
   margin-top: 70px;
   margin-bottom: 30px;
+  width: 965px;
   line-height: 60px;
-  width: 956px;
   letter-spacing: -0.03em;
   font-size: 60px;
 }
@@ -67,14 +66,14 @@ body {
 
 .interior-for-developer-description {
   position: relative;
-  width: 1150px;
+  width: 100%;
   height: 500px;
   background-image: url(../recources/interior-for-developer-description.png);
 }
 
 .description-command__text {
   position: absolute;
-  top: 379px;
+  bottom: 40px;
   left: 40px;
   width: 430px;
   letter-spacing: -0.6px;
@@ -90,6 +89,10 @@ body {
   line-height: normal;
 }
 
+.description-studio {
+  margin-bottom: 140px;
+}
+
 .description-studio__text {
   margin-bottom: 25px;
   width: 1048px;
@@ -100,7 +103,6 @@ body {
 
 .services__btn {
   display: block;
-  margin-bottom: 141px;
   border-radius: 5px;
   padding: 20px 40px;
   width: 255px;
@@ -122,17 +124,20 @@ body {
 }
 
 .project {
-  margin-bottom: 188px;
   width: 1150px;
-  height: 450px;
+  margin-bottom: 90px;
 }
 
 .project__title {
-  margin-top: 15px;
   margin-bottom: 15px;
   letter-spacing: -0.03em;
   line-height: 41px;
   font-size: 30px;
+}
+
+.project__image {
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
 }
 
 .project__link {
@@ -166,13 +171,12 @@ body {
 
 .serivces__cection {
   background-color: #000;
-  width: 100%;
-  height: 1844px;
+  padding-top: 140px;
+  padding-bottom: 150px;
 }
 
 .services__title {
   margin-bottom: 34px;
-  padding-top: 146px;
   line-height: 25px;
   letter-spacing: -0.03em;
   color: #fff;
@@ -241,7 +245,7 @@ body {
 
 .email {
   display: block;
-  margin-bottom: 160px;
+  margin-bottom: 146px;
   letter-spacing: -0.03em;
   width: 412px;
   font-size: 60px;
