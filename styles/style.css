@@ -9,24 +9,32 @@ body {
   min-width: 1400px;
 }
 
-.nav-section {
+.header {
   margin: 0 auto;
   padding-top: 33px;
   width: 1180px;
 }
 
 .logo-link {
-  margin-right: 532px;
   text-decoration: none;
 }
 
 .nav {
-  display: inline-block;
+  float: right;
+  padding-top: 3px;
+}
+
+.header__list {
+  display: inline;
+  margin-left: 53px;
+}
+
+.header__list:nth-last-child(4) {
+  margin-left: 0;
 }
 
 .nav-link {
   display: inline-block;
-  margin-right: 60px;
   font-size: 18px;
   text-decoration: none;
   color: #121212;
@@ -268,11 +276,18 @@ body {
   margin-bottom: 98px;
 }
 
+.footer__list {
+  width: 1180px;
+}
+
+.footer__list-item {
+  display: inline;
+  margin-right: 46px;
+}
+
 .footer__nav-link {
   display: inline-block;
-  margin-right: 60px;
   font-size: 18px;
-  text-align: center;
   text-decoration: none;
   color: #fff;
 }
